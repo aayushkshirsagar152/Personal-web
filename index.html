@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aayush | Premium Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#0a0a0a;
+  color:#fff;
+  scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  padding:20px 60px;
+  background:rgba(0,0,0,0.8);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:1000;
+}
+
+nav h2{
+  color:#ff7a00;
+}
+
+nav a{
+  color:#fff;
+  text-decoration:none;
+  margin-left:25px;
+  font-weight:500;
+}
+
+section{
+  padding:130px 20px;
+}
+
+.container{
+  max-width:1150px;
+  margin:auto;
+}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.hero-text{
+  max-width:550px;
+}
+
+.hero-text h1{
+  font-size:48px;
+  margin-bottom:15px;
+}
+
+.hero-text span{
+  color:#ff7a00;
+}
+
+.hero-text p{
+  color:#cfcfcf;
+  margin-bottom:30px;
+  line-height:1.7;
+}
+
+.btn{
+  padding:14px 34px;
+  background:#ff7a00;
+  color:#fff;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.hero-img img{
+  width:280px;
+  height:280px;
+  border-radius:50%;
+  border:6px solid #ff7a00;
+  object-fit:cover;
+}
+
+/* PREMIUM BLACK SPACE */
+.premium{
+  text-align:center;
+}
+
+.premium h2{
+  font-size:40px;
+}
+
+.premium span{
+  color:#ff7a00;
+}
+
+.premium p{
+  max-width:900px;
+  margin:25px auto;
+  font-size:18px;
+  color:#cfcfcf;
+  line-height:1.9;
+}
+
+blockquote{
+  font-size:24px;
+  color:#ff7a00;
+  font-style:italic;
+  margin:35px 0;
+}
+
+/* SKILLS */
+.skills h2{
+  text-align:center;
+  font-size:40px;
+  margin-bottom:50px;
+}
+
+.skill{
+  margin-bottom:25px;
+}
+
+.skill span{
+  display:block;
+  margin-bottom:8px;
+}
+
+.bar{
+  background:#222;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.bar div{
+  height:15px;
+  background:#ff7a00;
+}
+
+/* HOBBIES */
+.hobbies{
+  text-align:center;
+}
+
+.hobbies h2{
+  font-size:38px;
+  margin-bottom:20px;
+}
+
+.hobbies p{
+  font-size:18px;
+  color:#cfcfcf;
+}
+
+/* CONTACT */
+.contact{
+  text-align:center;
+}
+
+.contact h2{
+  font-size:38px;
+  margin-bottom:20px;
+}
+
+.contact p{
+  font-size:18px;
+  color:#cfcfcf;
+  margin-bottom:10px;
+}
+
+footer{
+  background:#000;
+  padding:20px;
+  text-align:center;
+  color:#777;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Aayush</h2>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="container hero">
+    <div class="hero-text">
+      <h1>Hello, I’m <span>Aayush</span></h1>
+      <p>Web Creator • Learner • Creative Thinker</p>
+      <a href="#contact" class="btn">Let’s Talk</a>
+    </div>
+
+    <div class="hero-img">
+      <img src="your-photo.jpg" alt="Aayush">
+    </div>
+  </div>
+</section>
+
+<!-- PREMIUM INFO -->
+<section class="premium" id="about">
+  <div class="container">
+    <h2>Who <span>I Am</span></h2>
+    <p><strong>Age:</strong> 17 Years</p>
+
+    <blockquote>
+      Architect of outcomes, not intentions.
+    </blockquote>
+
+    <p>
+      I am Aayush Prasad Kshirsagar, a passionate beginner web creator focused on
+      building modern, responsive and professional websites. I believe discipline,
+      execution and consistency are the real keys to success.
+    </p>
+
+    <p>
+      I continuously work on improving my coding, communication and leadership
+      skills by learning, experimenting and building real projects.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="container">
+    <h2>My <span>Skills</span></h2>
+
+    <div class="skill">
+      <span>Coding</span>
+      <div class="bar"><div style="width:85%"></div></div>
+    </div>
+
+    <div class="skill">
+      <span>Communication Skills</span>
+      <div class="bar"><div style="width:75%"></div></div>
+    </div>
+
+    <div class="skill">
+      <span>Leadership Skills</span>
+      <div class="bar"><div style="width:70%"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOBBIES -->
+<section class="hobbies">
+  <div class="container">
+    <h2>Hobbies</h2>
+    <p>♟ Playing Chess • 📚 Reading Books • 💻 Website Creating</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Contact <span>Me</span></h2>
+    <p>Email: aayushkshirsagar152@gmail.com</p>
+    <p>Instagram: @Aayyuxsh_</p>
+    <p>Mobile: 9172080531</p>
+  </div>
+</section>
+
+<footer>
+© 2026 Aayush Prasad Kshirsagar | Premium Portfolio
+</footer>
+
+</body>
+</html>
